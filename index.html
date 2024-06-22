@@ -11,8 +11,12 @@
 </head>
 
 <body>
-    <section class="timeline">
-        <article class="tweet">
+    <div>
+        <input type="text" name="tweetText" id="tweetText">
+        <button id="tweetSave" style="background-color: white;">Post</button>
+    </div>
+    <section id="timeline" class="timeline">
+        <!-- <article class="tweet">
             <div>
                 <img class="profile-image"
                     src="https://pbs.twimg.com/profile_images/1780044485541699584/p78MCn3B_400x400.jpg"
@@ -357,7 +361,7 @@
             </div>
         </article>
 
-        <article class="tweet">
+        <article class="tweet" onclick="tweetClick()">
             <div>
                 <img class="profile-image"
                     src="https://pbs.twimg.com/profile_images/1780044485541699584/p78MCn3B_400x400.jpg"
@@ -470,8 +474,10 @@
                     </div>
                 </div>
             </div>
-        </article>
+        </article> -->
     </section>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
